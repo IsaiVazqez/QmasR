@@ -33,12 +33,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
-  color: var(--color-default);
+  color: #364d59;
   overflow-x: hidden;
 }
 
 a {
-  color: var(--color-primary);
+  color: #feb900;
   text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: var(--color-primary);
+  background: #feb900;
   display: inline-block;
 }
 
@@ -197,7 +197,7 @@ section {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .breadcrumbs ol a {
@@ -230,7 +230,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: #feb900;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -239,7 +239,7 @@ section {
 
 .scroll-top i {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: #52565e;
   line-height: 0;
 }
 
@@ -271,7 +271,7 @@ section {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #fff;
-  border-color: var(--color-primary) transparent var(--color-primary) transparent;
+  border-color: #feb900 transparent #feb900 transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -334,7 +334,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 /*--------------------------------------------------------------
@@ -392,7 +392,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-primary);
+    background-color: #feb900;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -435,7 +435,7 @@ section {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: var(--color-default);
+    color: #364d59;
     font-weight: 400;
   }
 
@@ -446,7 +446,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-primary);
+    color: #feb900;
   }
 
   .navbar .dropdown:hover>ul {
@@ -606,7 +606,7 @@ section {
 
 .get-started .content h3 {
   font-size: 36px;
-  color: var(--color-secondary);
+  color: #52565e;
   font-weight: 600;
   margin-bottom: 25px;
   padding-bottom: 25px;
@@ -619,7 +619,7 @@ section {
   display: block;
   width: 60px;
   height: 4px;
-  background: var(--color-primary);
+  background: #feb900;
   left: 0;
   bottom: 0;
 }
@@ -703,7 +703,7 @@ section {
 
 .get-started .php-email-form input:focus,
 .get-started .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  border-color: #feb900;
 }
 
 .get-started .php-email-form input {
@@ -715,7 +715,7 @@ section {
 }
 
 .get-started .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: #feb900;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -778,11 +778,11 @@ section {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .constructions .card-item p {
-  color: var(--color-secondary);
+  color: #52565e;
   margin: 0;
 }
 
@@ -807,7 +807,7 @@ section {
 }
 
 .services .service-item .icon i {
-  color: var(--color-secondary);
+  color: #52565e;
   font-size: 40px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -816,6 +816,7 @@ section {
 }
 
 .services .service-item .icon:before {
+
   position: absolute;
   content: "";
   height: 100%;
@@ -829,7 +830,7 @@ section {
 }
 
 .services .service-item h3 {
-  color: var(--color-default);
+  color: var(#364d59);
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
@@ -849,16 +850,18 @@ section {
 .services .service-item .readmore {
   margin-top: 15px;
   display: inline-block;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .services .service-item:hover .icon:before {
-  background: var(--color-primary);
+  color: var(#feb900);
 }
 
 .services .service-item:hover h3 {
-  border-color: var(--color-primary);
+  color: var(#feb900);
 }
+
+/*-
 
 /*--------------------------------------------------------------
 # Features Section
@@ -870,7 +873,7 @@ section {
 .features .nav-link {
   padding: 15px 0;
   transition: 0.3s;
-  color: var(--color-secondary);
+  color: var(#364d59);
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -899,13 +902,13 @@ section {
 }
 
 .features .nav-link:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .features .nav-link.active {
-  color: var(--color-primary);
+  color: #feb900;
   background-color: transparent;
-  border-color: var(--color-primary);
+  border-color: #feb900;
 }
 
 .features .tab-content {
@@ -926,7 +929,7 @@ section {
   display: block;
   width: 60px;
   height: 3px;
-  background: var(--color-primary);
+  background: #feb900;
   left: 0;
   bottom: 0;
 }
@@ -943,7 +946,7 @@ section {
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .features .tab-pane p:last-child {
@@ -974,7 +977,7 @@ section {
 
 .projects .portfolio-flters li:hover,
 .projects .portfolio-flters li.filter-active {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .projects .portfolio-flters li:first-child {
@@ -1018,7 +1021,7 @@ section {
   font-weight: 400;
   color: #fff;
   display: inline-block;
-  background-color: var(--color-primary);
+  background-color: #feb900;
 }
 
 .projects .portfolio-content .portfolio-info p {
@@ -1046,7 +1049,7 @@ section {
 
 .projects .portfolio-content .portfolio-info .preview-link:hover,
 .projects .portfolio-content .portfolio-info .details-link:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .projects .portfolio-content .portfolio-info .details-link {
@@ -1154,7 +1157,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #feb900;
 }
 
 @media (max-width: 767px) {
@@ -1190,7 +1193,7 @@ section {
 .alt-services h3 {
   font-size: 28px;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: #52565e;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1202,7 +1205,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: #feb900;
   left: 0;
   bottom: 0;
 }
@@ -1215,7 +1218,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-primary);
+  color: #feb900;
   margin-right: 25px;
   font-size: 28px;
   width: 56px;
@@ -1228,7 +1231,7 @@ section {
 }
 
 .alt-services .icon-box:hover i {
-  background-color: var(--color-primary);
+  background-color: #feb900;
   color: #fff;
 }
 
@@ -1244,7 +1247,7 @@ section {
 }
 
 .alt-services .icon-box h4 a:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .alt-services .icon-box p {
@@ -1291,7 +1294,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .about .our-story p:last-child {
@@ -1313,24 +1316,24 @@ section {
 .about ul i {
   font-size: 20px;
   margin-right: 4px;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .about .watch-video i {
   font-size: 32px;
   transition: 0.3s;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .about .watch-video a {
   font-weight: 600;
-  color: var(--color-secondary);
+  color: #52565e;
   margin-left: 8px;
   transition: 0.3s;
 }
 
 .about .watch-video:hover a {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .about .about-img {
@@ -1360,14 +1363,14 @@ section {
   font-size: 42px;
   line-height: 0;
   margin-right: 20px;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .stats-counter .stats-item span {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .stats-counter .stats-item p {
@@ -1437,7 +1440,7 @@ section {
 .services-cards h3 {
   font-size: 20px;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .services-cards p {
@@ -1453,7 +1456,7 @@ section {
 
 .services-cards ul li i {
   font-size: 16px;
-  color: var(--color-primary);
+  color: #feb900;
   margin-right: 6px;
 }
 
@@ -1472,7 +1475,7 @@ section {
 }
 
 .project-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #feb900;
 }
 
 .project-details .swiper-button-prev,
@@ -1522,7 +1525,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: #feb900;
   left: 0;
   bottom: 0;
 }
@@ -1548,7 +1551,7 @@ section {
 
 .project-details .portfolio-info .btn-visit {
   padding: 8px 40px;
-  background: var(--color-primary);
+  background: #feb900;
   color: #fff;
   border-radius: 50px;
   transition: 0.3s;
@@ -1562,7 +1565,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .project-details .portfolio-description p {
@@ -1640,17 +1643,17 @@ section {
   padding: 8px 0 8px 15px;
   border-left: 3px solid #d9e3e8;
   margin: 20px 0;
-  color: var(--color-secondary);
+  color: #52565e;
   transition: 0.3s;
 }
 
 .service-details .services-list a.active {
   font-weight: 700;
-  border-color: var(--color-primary);
+  border-color: #feb900;
 }
 
 .service-details .services-list a:hover {
-  border-color: var(--color-primary);
+  border-color: #feb900;
 }
 
 .service-details .services-img {
@@ -1686,7 +1689,7 @@ section {
 .service-details ul i {
   font-size: 20px;
   margin-right: 8px;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 /*--------------------------------------------------------------
@@ -1705,7 +1708,7 @@ section {
   height: 56px;
   font-size: 24px;
   line-height: 0;
-  color: var(--color-primary);
+  color: #feb900;
   border-radius: 50%;
   border: 2px dotted #ffd565;
 }
@@ -1786,7 +1789,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: var(--color-primary);
+  border-color: #feb900;
 }
 
 .contact .php-email-form input {
@@ -1798,7 +1801,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: #feb900;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1836,7 +1839,7 @@ section {
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: var(--color-primary);
+  background-color: #feb900;
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
@@ -1850,7 +1853,7 @@ section {
 
 .recent-blog-posts .post-item .post-title {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: #52565e;
   font-weight: 700;
   transition: 0.3s;
   margin-bottom: 15px;
@@ -1858,7 +1861,7 @@ section {
 
 .recent-blog-posts .post-item .meta i {
   font-size: 16px;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .recent-blog-posts .post-item .meta span {
@@ -1888,7 +1891,7 @@ section {
 
 .recent-blog-posts .post-item:hover .post-title,
 .recent-blog-posts .post-item:hover .readmore {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .recent-blog-posts .post-item:hover .post-img img {
@@ -1956,7 +1959,7 @@ section {
   display: block;
   width: 80px;
   height: 4px;
-  background: var(--color-primary);
+  background: #feb900;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1985,11 +1988,11 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #feb900;
 }
 
 .hero .info .btn-get-started:hover {
-  background: var(--color-primary);
+  background: #feb900;
 }
 
 .hero .carousel-control-prev {
@@ -2064,7 +2067,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-  color: var(--color-secondary);
+  color: #52565e;
   padding: 7px 16px;
   display: flex;
   align-items: center;
@@ -2073,7 +2076,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-  background: var(--color-primary);
+  background: #feb900;
   color: #fff;
 }
 
@@ -2098,7 +2101,7 @@ section {
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: var(--color-primary);
+  background-color: #feb900;
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
@@ -2112,7 +2115,7 @@ section {
 
 .blog .posts-list .post-title {
   font-size: 24px;
-  color: var(--color-secondary);
+  color: #52565e;
   font-weight: 700;
   transition: 0.3s;
   margin-bottom: 15px;
@@ -2120,7 +2123,7 @@ section {
 
 .blog .posts-list .meta i {
   font-size: 16px;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .posts-list .meta span {
@@ -2154,7 +2157,7 @@ section {
 
 .blog .posts-list .post-item:hover .post-title,
 .blog .posts-list .post-item:hover .readmore {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .posts-list .post-item:hover .post-img img {
@@ -2179,7 +2182,7 @@ section {
   font-weight: 700;
   padding: 0;
   margin: 20px 0 0 0;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .blog .blog-details .content {
@@ -2202,7 +2205,7 @@ section {
 }
 
 .blog .blog-details .content blockquote p {
-  color: var(--color-default);
+  color: #364d59;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -2217,7 +2220,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: var(--color-primary);
+  background-color: #feb900;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -2244,7 +2247,7 @@ section {
   font-size: 16px;
   margin-right: 8px;
   line-height: 0;
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .blog-details .meta-top a {
@@ -2256,7 +2259,7 @@ section {
 }
 
 .blog .blog-details .meta-top a:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .blog-details .meta-bottom {
@@ -2275,7 +2278,7 @@ section {
 }
 
 .blog .blog-details .meta-bottom a:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .blog-details .meta-bottom .cats {
@@ -2302,7 +2305,7 @@ section {
 
 .blog .blog-details .meta-bottom .tags li+li::before {
   padding-right: 6px;
-  color: var(--color-default);
+  color: #364d59;
   content: ",";
 }
 
@@ -2330,7 +2333,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .blog .post-author .social-links {
@@ -2361,7 +2364,7 @@ section {
   font-weight: 700;
   padding: 0;
   margin: 0;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .blog .sidebar .sidebar-item+.sidebar-item {
@@ -2396,8 +2399,8 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: var(--color-primary);
-  color: var(--color-secondary);
+  background: #feb900;
+  color: #52565e;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
   line-height: 0;
@@ -2421,12 +2424,12 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: var(--color-secondary);
+  color: #52565e;
   transition: 0.3s;
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: var(--color-default);
+  color: #364d59;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2454,12 +2457,12 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: var(--color-secondary);
+  color: #52565e;
   transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2493,9 +2496,9 @@ section {
 }
 
 .blog .sidebar .tags ul a:hover {
-  color: var(--color-secondary);
-  border: 1px solid var(--color-primary);
-  background: var(--color-primary);
+  color: #52565e;
+  border: 1px solid #feb900;
+  background: #feb900;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2535,17 +2538,17 @@ section {
 
 .blog .comments .comment h5 a {
   font-weight: bold;
-  color: var(--color-default);
+  color: #364d59;
   transition: 0.3s;
 }
 
 .blog .comments .comment h5 a:hover {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .blog .comments .comment h5 .reply {
   padding-left: 10px;
-  color: var(--color-secondary);
+  color: #52565e;
 }
 
 .blog .comments .comment h5 .reply i {
@@ -2608,12 +2611,12 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: var(--color-secondary);
+  background-color: #52565e;
 }
 
 .blog .comments .reply-form .btn-primary:hover {
-  color: var(--color-secondary);
-  background-color: var(--color-primary);
+  color: #52565e;
+  background-color: #feb900;
 }
 
 /*--------------------------------------------------------------
@@ -2649,7 +2652,7 @@ section {
 }
 
 .footer .footer-content .footer-info h3 span {
-  color: var(--color-primary);
+  color: #feb900;
 }
 
 .footer .footer-content .footer-info p {
@@ -2674,7 +2677,7 @@ section {
 }
 
 .footer .footer-content .social-links a:hover {
-  background: var(--color-primary);
+  background: #feb900;
   text-decoration: none;
 }
 
@@ -2727,5 +2730,5 @@ section {
 }
 
 .footer .footer-legal .credits a {
-  color: var(--color-primary);
+  color: #feb900;
 }

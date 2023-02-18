@@ -5,20 +5,28 @@ import { SwiperModule } from 'swiper/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { AboutComponent } from './components/about/about.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+
+import { ContactComponent } from './components/contact/contact.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { LoginComponent } from './components/login/login.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     CarouselComponent,
+    AboutComponent,
+    ContactComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    SwiperModule
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent, ]
