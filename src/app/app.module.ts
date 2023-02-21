@@ -12,6 +12,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { UsuariosComponent } from './components/usuarios/usuarios.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { SidebarService } from './services/sidebar.service';
 
 
 @NgModule({
@@ -23,6 +26,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     ContactComponent,
     LoginComponent,
     DashboardComponent,
+    UsuariosComponent,
+    SidebarComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -30,7 +36,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     NgbModule,
     SwiperModule,
   ],
-  providers: [],
+  providers: [SidebarService],
   bootstrap: [AppComponent, ]
 })
 export class AppModule { }

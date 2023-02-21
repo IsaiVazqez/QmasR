@@ -11,7 +11,6 @@
 
     <title>Q+R - Dashboard</title>
 
-
 </head>
 
 <body id="page-top">
@@ -20,56 +19,12 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <div class="sidebarr">
+          <app-sidebar >
+          </app-sidebar>
+        </div>
 
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon">
-                    <img style="height:55px ;" src="img/Q+R ICONO.png" />
-                </div>
-            </a>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Admnistración Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAdministracion"
-                    aria-expanded="true" aria-controls="collapseAdministracion">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Admnistración</span>
-                </a>
-                <div id="collapseAdministracion" class="collapse" aria-labelledby="headingTwo"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="usuarios.html">Usuarios</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Inventario Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseInventario"
-                    aria-expanded="true" aria-controls="collapseInventario">
-                    <i class="fas fa-fw fa-images"></i>
-                    <span>Projects</span>
-                </a>
-                <div id="collapseInventario" class="collapse" aria-labelledby="headingInventario"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="projects.html">Proyectos</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-        </ul>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -130,7 +85,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Q+R</span>
                     </div>
                 </div>
             </footer>
@@ -142,15 +97,6 @@
     </div>
     <!-- End of Page Wrapper -->
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.js"></script>
 
 
     <!-- ============================================================
