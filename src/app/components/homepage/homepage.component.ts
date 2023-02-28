@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 import * as Aos from 'aos';
+import { Proyecto } from 'src/app/models/proyect.model';
+import { ProyectosService } from 'src/app/services/proyectos.service';
 
 @Component({
   selector: 'app-homepage',
@@ -9,12 +11,21 @@ import * as Aos from 'aos';
 
 })
 
+export class HomepageComponent implements OnInit {
 
+  proyecto: Proyecto[] = [];
 
-export class HomepageComponent {
+  constructor(
+    private proyectoService: ProyectosService
+  ) {}
 
-
-    constructor() {}
+  ngOnInit(): void {
+    this.proyectoService.getAllProyects()
+    .subscribe(data => {
+      this.proyecto = data;
+      console.log(data);
+    })
+  }
 }
 
 
