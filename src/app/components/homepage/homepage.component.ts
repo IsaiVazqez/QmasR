@@ -21,9 +21,9 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit(): void {
     this.proyectoService.getAllProyects()
-    .subscribe(data => {
-      this.proyecto = data;
-      console.log(data);
+    .subscribe((data: any) => {
+      this.proyecto = data[0];
+      console.log(data[0]);
     })
   }
 }
