@@ -18,7 +18,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { SidebarService } from './services/sidebar.service';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { ImgComponent } from './components/img/img.component';
-import { ToArrayPipe } from './to-array.pipe';
+import { ToArrayPipe } from './components/pipes/to-array.pipe';
 
 
 @NgModule({
