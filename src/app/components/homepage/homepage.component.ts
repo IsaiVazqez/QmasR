@@ -13,6 +13,9 @@ import { ProyectosService } from 'src/app/services/proyectos.service';
 
 export class HomepageComponent implements OnInit {
 
+
+
+
   proyecto: Proyecto[] = [];
 
   constructor(

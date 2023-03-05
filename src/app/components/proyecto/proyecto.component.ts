@@ -16,6 +16,7 @@ export class ProyectoComponent {
     presupuesto: 0,
     status: 0,
     urlImagen: '',
+    descripcion: '',
     category:
     {
       idCategoria: 0,

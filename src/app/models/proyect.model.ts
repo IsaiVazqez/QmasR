@@ -12,5 +12,6 @@ export interface Proyecto {
   presupuesto: number;
   status: number;
   urlImagen: string;
+  descripcion: string;
   category: Category;
 }
