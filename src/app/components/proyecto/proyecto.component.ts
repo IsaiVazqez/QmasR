@@ -17,10 +17,7 @@ export class ProyectoComponent {
     status: 0,
     urlImagen: '',
     descripcion: '',
-    category:
-    {
-      idCategoria: 0,
-      categoriaName: '',
-    }
+    idCategoria: 0,
+    categoriaName: ''
   };
 }

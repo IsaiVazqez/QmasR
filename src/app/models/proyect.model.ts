@@ -1,7 +1,4 @@
-export interface Category {
-  idCategoria: number;
-  categoriaName: string;
-}
+
 
 export interface Proyecto {
   idProj: number;
@@ -13,5 +10,10 @@ export interface Proyecto {
   status: number;
   urlImagen: string;
   descripcion: string;
-  category: Category;
+  idCategoria: number;
+  categoriaName: string;}
+
+
+export interface ProyectsResponse {
+  data: Proyecto[]
 }

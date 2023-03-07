@@ -13,22 +13,21 @@ import { ProyectosService } from 'src/app/services/proyectos.service';
 
 export class HomepageComponent implements OnInit {
 
-
-
-
-  proyecto: Proyecto[] = [];
+  proyectos: Proyecto[] = [];
 
   constructor(
     private proyectoService: ProyectosService
   ) {}
 
   ngOnInit(): void {
-    this.proyectoService.getAllProyects()
-    .subscribe((data: any) => {
-      this.proyecto = data[0];
-      console.log(data[0]);
-    })
-  }
+    this.proyectoService.getAllProyects().subscribe((response) => {
+      console.log(response.data);
+      this.proyectos = response.data;
+      //this.proyectos = response.data.filter(proyecto => proyecto.idCategoria == 1);
+      console.log(this.proyectos);
+     },
+    )
+   }
 }
 
 
