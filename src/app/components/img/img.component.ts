@@ -17,7 +17,7 @@ export class ImgComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy
 
   @Input() alt = '';
   @Output() loaded = new EventEmitter<string>();
-  imageDefault = './assets/images/default.png';
+  imageDefault = '/src/assets/img/projects/design-1.jpg';
 
   constructor() {
     // before render
@@ -54,7 +54,6 @@ export class ImgComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy
   }
 
   imgLoaded() {
-    console.log('log hijo');
     this.loaded.emit(this.img);
   }
 }

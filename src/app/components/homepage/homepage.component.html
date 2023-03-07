@@ -391,28 +391,23 @@
             <li data-filter=".filter-design">Diseño</li>
           </ul><!-- End Projects Filters -->
 
-          <div id= "three" class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="100">
+          <div id= "three" class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="100" style="height:400px;">
 
             <div id="one" class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
-              <app-proyecto [proyect]="proy" *ngFor="let proy of proyectos | toArray ">
+              <app-proyecto [proyect]="proy" *ngFor="let proy of proyectos">
               </app-proyecto>
             </div>
-            <!-- End Projects Item -->
-
-            <div id="one" class="col-lg-4 col-md-6 portfolio-item filter-construction">
-              <app-proyecto [proyect]="proy" *ngFor="let proy of proyectos | toArray ">
+            <div id="one" class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <app-proyecto [proyect]="proy" *ngFor="let proy of proyectos">
               </app-proyecto>
             </div>
-
-          <div id="one" class="col-lg-4 col-md-6 portfolio-item filter-repairs">
-            <app-proyecto [proyect]="proy" *ngFor="let proy of proyectos | toArray ">
-            </app-proyecto>
+            <div id="one" class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <app-proyecto [proyect]="proy" *ngFor="let proy of proyectos">
+              </app-proyecto>
+            </div>
           </div>
           </div>
 
-
-
-        </div><!-- End Projects Container -->
 
       </div>
 

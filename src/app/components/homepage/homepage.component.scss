@@ -2737,7 +2737,7 @@ section {
 
 .products--grid {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 // tablets
@@ -2758,13 +2758,27 @@ section {
   }
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
 
 #one {
-  display: grid;
-  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position:sticky;
 }
 
 
 #three {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  display: flex;
   height: auto;
+  flex-direction: row;
+  position:sticky;
+  left:0;
+  z-index:999;
 }

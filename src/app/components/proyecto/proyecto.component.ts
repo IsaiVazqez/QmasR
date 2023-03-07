@@ -10,8 +10,6 @@ export class ProyectoComponent {
   @Input() proyect: Proyecto = {
     idProj: 0,
     titulo: '',
-    createDate: '',
-    finaliDatre: '',
     ubicacion: '',
     presupuesto: 0,
     status: 0,

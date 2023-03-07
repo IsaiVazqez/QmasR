@@ -1,17 +1,14 @@
-
-
 export interface Proyecto {
   idProj: number;
   titulo: string;
-  createDate: string;
-  finaliDatre: string;
+  descripcion: string;
   ubicacion: string;
   presupuesto: number;
+  idCategoria: number;
+  categoriaName: string;
   status: number;
   urlImagen: string;
-  descripcion: string;
-  idCategoria: number;
-  categoriaName: string;}
+}
 
 
 export interface ProyectsResponse {
